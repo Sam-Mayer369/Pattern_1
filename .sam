@@ -1,0 +1,33 @@
+class Pattern_1
+{
+    public static void main ()
+    {
+     int n=5,z=5,x=1;
+   for(int i=1;i<=n;i++)
+   {
+    for(int j=1;j<i;j++)
+    {
+    System.out.print(" ");
+}
+for (int k=1;k<=z;k++)
+{
+    System.out.print(k);
+}
+    z--;
+    System.out.println();
+}
+for(int a=1;a<=5;a++)
+{
+  for(int b=4;b>=a;b--)
+  {
+ System.out.print(" ");
+}
+for(int c=1;c<=x;c++)
+{
+    System.out.print(c);
+}
+x++;
+System.out.println();
+}
+}
+}
